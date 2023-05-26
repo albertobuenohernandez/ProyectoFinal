@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="spinnerUbicacion">
+        <item>España</item>
+        <item>Italia</item>
+        <item>Portugal</item>
+        <item>Francia</item>
+    </string-array>
+
+</resources>

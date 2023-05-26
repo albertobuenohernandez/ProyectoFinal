@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoregistro"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Registro">
+
+    <TextView
+        android:id="@+id/tituloRegistro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="@font/lilly"
+        android:text="@string/nombre"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp" />
+
+    <EditText
+        android:id="@+id/cuadroMail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:background="@drawable/borde_redondo"
+        android:ems="10"
+        android:hint="@string/hintCorreo"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/cuadroNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:background="@drawable/borde_redondo"
+        android:ems="10"
+        android:hint="@string/hintNombreCompleto"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/cuadroUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:background="@drawable/borde_redondo"
+        android:ems="10"
+        android:hint="@string/hintUsuario"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/cuadroContrasenia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:background="@drawable/borde_redondo"
+        android:ems="10"
+        android:hint="@string/hintContra"
+        android:inputType="textPassword" />
+
+    <Spinner
+        android:id="@+id/spinnerRegistro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:entries="@array/spinnerRegistro" />
+
+    <Button
+        android:id="@+id/botonRegistro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:text="Registrar" />
+
+</LinearLayout>

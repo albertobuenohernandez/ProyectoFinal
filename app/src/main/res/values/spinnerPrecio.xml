@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="spinnerPrecio">
+        <item>Min</item>
+        <item>50000</item>
+        <item>60000</item>
+        <item>70000</item>
+        <item>80000</item>
+        <item>90000</item>
+        <item>100000</item>
+        <item>110000</item>
+        <item>120000</item>
+        <item>130000</item>
+        <item>140000</item>
+        <item>150000</item>
+        <item>160000</item>
+        <item>170000</item>
+        <item>180000</item>
+        <item>190000</item>
+        <item>200000</item>
+        <item>210000</item>
+        <item>220000</item>
+        <item>230000</item>
+        <item>240000</item>
+        <item>250000</item>
+        <item>Max</item>
+    </string-array>
+
+</resources>

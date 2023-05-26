@@ -1,0 +1,175 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.homelooker"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->C:\Users\Alberto\Desktop\ProyectoFCT\HomeLooker\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\Alberto\Desktop\ProyectoFCT\HomeLooker\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Alberto\Desktop\ProyectoFCT\HomeLooker\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\Alberto\Desktop\ProyectoFCT\HomeLooker\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <application
+13-->C:\Users\Alberto\Desktop\ProyectoFCT\HomeLooker\app\src\main\AndroidManifest.xml:7:5-64:19
+14        android:allowBackup="true"
+14-->C:\Users\Alberto\Desktop\ProyectoFCT\HomeLooker\app\src\main\AndroidManifest.xml:8:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.7.0] C:\Users\Alberto\.gradle\caches\transforms-3\0212d0c0c0b99c5d00c15a82a811f4d1\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+16        android:dataExtractionRules="@xml/data_extraction_rules"
+16-->C:\Users\Alberto\Desktop\ProyectoFCT\HomeLooker\app\src\main\AndroidManifest.xml:9:9-65
+17        android:debuggable="true"
+18        android:extractNativeLibs="false"
+19        android:fullBackupContent="@xml/backup_rules"
+19-->C:\Users\Alberto\Desktop\ProyectoFCT\HomeLooker\app\src\main\AndroidManifest.xml:10:9-54
+20        android:hardwareAccelerated="true"
+20-->C:\Users\Alberto\Desktop\ProyectoFCT\HomeLooker\app\src\main\AndroidManifest.xml:11:9-43
+21        android:icon="@mipmap/ic_launcher"
+21-->C:\Users\Alberto\Desktop\ProyectoFCT\HomeLooker\app\src\main\AndroidManifest.xml:12:9-43
+22        android:label="@string/app_name"
+22-->C:\Users\Alberto\Desktop\ProyectoFCT\HomeLooker\app\src\main\AndroidManifest.xml:13:9-41
+23        android:largeHeap="true"
+23-->C:\Users\Alberto\Desktop\ProyectoFCT\HomeLooker\app\src\main\AndroidManifest.xml:14:9-33
+24        android:supportsRtl="true"
+24-->C:\Users\Alberto\Desktop\ProyectoFCT\HomeLooker\app\src\main\AndroidManifest.xml:15:9-35
+25        android:theme="@style/Theme.HomeLooker"
+25-->C:\Users\Alberto\Desktop\ProyectoFCT\HomeLooker\app\src\main\AndroidManifest.xml:16:9-48
+26        android:usesCleartextTraffic="true" >
+26-->C:\Users\Alberto\Desktop\ProyectoFCT\HomeLooker\app\src\main\AndroidManifest.xml:17:9-44
+27        <activity
+27-->C:\Users\Alberto\Desktop\ProyectoFCT\HomeLooker\app\src\main\AndroidManifest.xml:20:9-22:40
+28            android:name="com.example.homelooker.EditarEstancia"
+28-->C:\Users\Alberto\Desktop\ProyectoFCT\HomeLooker\app\src\main\AndroidManifest.xml:21:13-43
+29            android:exported="false" />
+29-->C:\Users\Alberto\Desktop\ProyectoFCT\HomeLooker\app\src\main\AndroidManifest.xml:22:13-37
+30        <activity
+30-->C:\Users\Alberto\Desktop\ProyectoFCT\HomeLooker\app\src\main\AndroidManifest.xml:23:9-25:40
+31            android:name="com.example.homelooker.Informacion"
+31-->C:\Users\Alberto\Desktop\ProyectoFCT\HomeLooker\app\src\main\AndroidManifest.xml:24:13-40
+32            android:exported="false" />
+32-->C:\Users\Alberto\Desktop\ProyectoFCT\HomeLooker\app\src\main\AndroidManifest.xml:25:13-37
+33        <activity
+33-->C:\Users\Alberto\Desktop\ProyectoFCT\HomeLooker\app\src\main\AndroidManifest.xml:26:9-28:40
+34            android:name="com.example.homelooker.Ordenar"
+34-->C:\Users\Alberto\Desktop\ProyectoFCT\HomeLooker\app\src\main\AndroidManifest.xml:27:13-36
+35            android:exported="false" />
+35-->C:\Users\Alberto\Desktop\ProyectoFCT\HomeLooker\app\src\main\AndroidManifest.xml:28:13-37
+36        <activity
+36-->C:\Users\Alberto\Desktop\ProyectoFCT\HomeLooker\app\src\main\AndroidManifest.xml:29:9-31:40
+37            android:name="com.example.homelooker.Filtrar"
+37-->C:\Users\Alberto\Desktop\ProyectoFCT\HomeLooker\app\src\main\AndroidManifest.xml:30:13-36
+38            android:exported="false" />
+38-->C:\Users\Alberto\Desktop\ProyectoFCT\HomeLooker\app\src\main\AndroidManifest.xml:31:13-37
+39        <activity
+39-->C:\Users\Alberto\Desktop\ProyectoFCT\HomeLooker\app\src\main\AndroidManifest.xml:32:9-34:40
+40            android:name="com.example.homelooker.NuevaEstancia"
+40-->C:\Users\Alberto\Desktop\ProyectoFCT\HomeLooker\app\src\main\AndroidManifest.xml:33:13-42
+41            android:exported="false" />
+41-->C:\Users\Alberto\Desktop\ProyectoFCT\HomeLooker\app\src\main\AndroidManifest.xml:34:13-37
+42        <activity
+42-->C:\Users\Alberto\Desktop\ProyectoFCT\HomeLooker\app\src\main\AndroidManifest.xml:35:9-37:40
+43            android:name="com.example.homelooker.Resultados"
+43-->C:\Users\Alberto\Desktop\ProyectoFCT\HomeLooker\app\src\main\AndroidManifest.xml:36:13-39
+44            android:exported="false" />
+44-->C:\Users\Alberto\Desktop\ProyectoFCT\HomeLooker\app\src\main\AndroidManifest.xml:37:13-37
+45        <activity
+45-->C:\Users\Alberto\Desktop\ProyectoFCT\HomeLooker\app\src\main\AndroidManifest.xml:38:9-40:40
+46            android:name="com.example.homelooker.EditarCuenta"
+46-->C:\Users\Alberto\Desktop\ProyectoFCT\HomeLooker\app\src\main\AndroidManifest.xml:39:13-41
+47            android:exported="false" />
+47-->C:\Users\Alberto\Desktop\ProyectoFCT\HomeLooker\app\src\main\AndroidManifest.xml:40:13-37
+48        <activity
+48-->C:\Users\Alberto\Desktop\ProyectoFCT\HomeLooker\app\src\main\AndroidManifest.xml:41:9-43:40
+49            android:name="com.example.homelooker.CambiarContrasenia"
+49-->C:\Users\Alberto\Desktop\ProyectoFCT\HomeLooker\app\src\main\AndroidManifest.xml:42:13-47
+50            android:exported="false" />
+50-->C:\Users\Alberto\Desktop\ProyectoFCT\HomeLooker\app\src\main\AndroidManifest.xml:43:13-37
+51        <activity
+51-->C:\Users\Alberto\Desktop\ProyectoFCT\HomeLooker\app\src\main\AndroidManifest.xml:44:9-46:40
+52            android:name="com.example.homelooker.Ajustes"
+52-->C:\Users\Alberto\Desktop\ProyectoFCT\HomeLooker\app\src\main\AndroidManifest.xml:45:13-36
+53            android:exported="false" />
+53-->C:\Users\Alberto\Desktop\ProyectoFCT\HomeLooker\app\src\main\AndroidManifest.xml:46:13-37
+54        <activity
+54-->C:\Users\Alberto\Desktop\ProyectoFCT\HomeLooker\app\src\main\AndroidManifest.xml:47:9-51:67
+55            android:name="com.example.homelooker.Inicio"
+55-->C:\Users\Alberto\Desktop\ProyectoFCT\HomeLooker\app\src\main\AndroidManifest.xml:48:13-35
+56            android:exported="false"
+56-->C:\Users\Alberto\Desktop\ProyectoFCT\HomeLooker\app\src\main\AndroidManifest.xml:49:13-37
+57            android:label="@string/title_activity_inicio"
+57-->C:\Users\Alberto\Desktop\ProyectoFCT\HomeLooker\app\src\main\AndroidManifest.xml:50:13-58
+58            android:theme="@style/Theme.HomeLooker.NoActionBar" />
+58-->C:\Users\Alberto\Desktop\ProyectoFCT\HomeLooker\app\src\main\AndroidManifest.xml:51:13-64
+59        <activity
+59-->C:\Users\Alberto\Desktop\ProyectoFCT\HomeLooker\app\src\main\AndroidManifest.xml:52:9-54:40
+60            android:name="com.example.homelooker.Registro"
+60-->C:\Users\Alberto\Desktop\ProyectoFCT\HomeLooker\app\src\main\AndroidManifest.xml:53:13-37
+61            android:exported="false" />
+61-->C:\Users\Alberto\Desktop\ProyectoFCT\HomeLooker\app\src\main\AndroidManifest.xml:54:13-37
+62        <activity
+62-->C:\Users\Alberto\Desktop\ProyectoFCT\HomeLooker\app\src\main\AndroidManifest.xml:55:9-63:20
+63            android:name="com.example.homelooker.MainActivity"
+63-->C:\Users\Alberto\Desktop\ProyectoFCT\HomeLooker\app\src\main\AndroidManifest.xml:56:13-41
+64            android:exported="true" >
+64-->C:\Users\Alberto\Desktop\ProyectoFCT\HomeLooker\app\src\main\AndroidManifest.xml:57:13-36
+65            <intent-filter>
+65-->C:\Users\Alberto\Desktop\ProyectoFCT\HomeLooker\app\src\main\AndroidManifest.xml:58:13-62:29
+66                <action android:name="android.intent.action.MAIN" />
+66-->C:\Users\Alberto\Desktop\ProyectoFCT\HomeLooker\app\src\main\AndroidManifest.xml:59:17-69
+66-->C:\Users\Alberto\Desktop\ProyectoFCT\HomeLooker\app\src\main\AndroidManifest.xml:59:25-66
+67
+68                <category android:name="android.intent.category.LAUNCHER" />
+68-->C:\Users\Alberto\Desktop\ProyectoFCT\HomeLooker\app\src\main\AndroidManifest.xml:61:17-77
+68-->C:\Users\Alberto\Desktop\ProyectoFCT\HomeLooker\app\src\main\AndroidManifest.xml:61:27-74
+69            </intent-filter>
+70        </activity>
+71
+72        <provider
+72-->[com.squareup.picasso:picasso:2.71828] C:\Users\Alberto\.gradle\caches\transforms-3\606ed2428811195b8467773399e613aa\transformed\picasso-2.71828\AndroidManifest.xml:8:9-11:40
+73            android:name="com.squareup.picasso.PicassoProvider"
+73-->[com.squareup.picasso:picasso:2.71828] C:\Users\Alberto\.gradle\caches\transforms-3\606ed2428811195b8467773399e613aa\transformed\picasso-2.71828\AndroidManifest.xml:9:13-64
+74            android:authorities="com.example.homelooker.com.squareup.picasso"
+74-->[com.squareup.picasso:picasso:2.71828] C:\Users\Alberto\.gradle\caches\transforms-3\606ed2428811195b8467773399e613aa\transformed\picasso-2.71828\AndroidManifest.xml:10:13-72
+75            android:exported="false" />
+75-->[com.squareup.picasso:picasso:2.71828] C:\Users\Alberto\.gradle\caches\transforms-3\606ed2428811195b8467773399e613aa\transformed\picasso-2.71828\AndroidManifest.xml:11:13-37
+76        <provider
+76-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Alberto\.gradle\caches\transforms-3\98f686da2fce73ff8e48ca6a893a34a2\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+77            android:name="androidx.startup.InitializationProvider"
+77-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Alberto\.gradle\caches\transforms-3\98f686da2fce73ff8e48ca6a893a34a2\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+78            android:authorities="com.example.homelooker.androidx-startup"
+78-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Alberto\.gradle\caches\transforms-3\98f686da2fce73ff8e48ca6a893a34a2\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+79            android:exported="false" >
+79-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Alberto\.gradle\caches\transforms-3\98f686da2fce73ff8e48ca6a893a34a2\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+80            <meta-data
+80-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Alberto\.gradle\caches\transforms-3\98f686da2fce73ff8e48ca6a893a34a2\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+81                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+81-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Alberto\.gradle\caches\transforms-3\98f686da2fce73ff8e48ca6a893a34a2\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+82                android:value="androidx.startup" />
+82-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Alberto\.gradle\caches\transforms-3\98f686da2fce73ff8e48ca6a893a34a2\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+83            <meta-data
+83-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Alberto\.gradle\caches\transforms-3\087e3e4f119bd3d4d28bb978bd0efd9b\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+84                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+84-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Alberto\.gradle\caches\transforms-3\087e3e4f119bd3d4d28bb978bd0efd9b\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+85                android:value="androidx.startup" />
+85-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Alberto\.gradle\caches\transforms-3\087e3e4f119bd3d4d28bb978bd0efd9b\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+86        </provider>
+87
+88        <uses-library
+88-->[androidx.window:window:1.0.0] C:\Users\Alberto\.gradle\caches\transforms-3\8f9220d66762372c6aa1e02e07b4f277\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+89            android:name="androidx.window.extensions"
+89-->[androidx.window:window:1.0.0] C:\Users\Alberto\.gradle\caches\transforms-3\8f9220d66762372c6aa1e02e07b4f277\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+90            android:required="false" />
+90-->[androidx.window:window:1.0.0] C:\Users\Alberto\.gradle\caches\transforms-3\8f9220d66762372c6aa1e02e07b4f277\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+91        <uses-library
+91-->[androidx.window:window:1.0.0] C:\Users\Alberto\.gradle\caches\transforms-3\8f9220d66762372c6aa1e02e07b4f277\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+92            android:name="androidx.window.sidecar"
+92-->[androidx.window:window:1.0.0] C:\Users\Alberto\.gradle\caches\transforms-3\8f9220d66762372c6aa1e02e07b4f277\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+93            android:required="false" />
+93-->[androidx.window:window:1.0.0] C:\Users\Alberto\.gradle\caches\transforms-3\8f9220d66762372c6aa1e02e07b4f277\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+94    </application>
+95
+96</manifest>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.homelooker"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="26"
+        android:targetSdkVersion="33" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:debuggable="true"
+        android:extractNativeLibs="false"
+        android:fullBackupContent="@xml/backup_rules"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HomeLooker"
+        android:usesCleartextTraffic="true" >
+        <activity
+            android:name="com.example.homelooker.EditarEstancia"
+            android:exported="false" />
+        <activity
+            android:name="com.example.homelooker.Informacion"
+            android:exported="false" />
+        <activity
+            android:name="com.example.homelooker.Ordenar"
+            android:exported="false" />
+        <activity
+            android:name="com.example.homelooker.Filtrar"
+            android:exported="false" />
+        <activity
+            android:name="com.example.homelooker.NuevaEstancia"
+            android:exported="false" />
+        <activity
+            android:name="com.example.homelooker.Resultados"
+            android:exported="false" />
+        <activity
+            android:name="com.example.homelooker.EditarCuenta"
+            android:exported="false" />
+        <activity
+            android:name="com.example.homelooker.CambiarContrasenia"
+            android:exported="false" />
+        <activity
+            android:name="com.example.homelooker.Ajustes"
+            android:exported="false" />
+        <activity
+            android:name="com.example.homelooker.Inicio"
+            android:exported="false"
+            android:label="@string/title_activity_inicio"
+            android:theme="@style/Theme.HomeLooker.NoActionBar" />
+        <activity
+            android:name="com.example.homelooker.Registro"
+            android:exported="false" />
+        <activity
+            android:name="com.example.homelooker.MainActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:authorities="com.example.homelooker.com.squareup.picasso"
+            android:exported="false" />
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="com.example.homelooker.androidx-startup"
+            android:exported="false" >
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
+        </provider>
+
+        <uses-library
+            android:name="androidx.window.extensions"
+            android:required="false" />
+        <uses-library
+            android:name="androidx.window.sidecar"
+            android:required="false" />
+    </application>
+
+</manifest>

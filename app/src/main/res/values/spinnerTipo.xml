@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="spinnerTipo">
+        <item>Tipo de busqueda</item>
+        <item>Vivienda</item>
+        <item>Piso</item>
+        <item>Habitación</item>
+        <item>Garaje</item>
+        <item>Chalet</item>
+    </string-array>
+
+</resources>

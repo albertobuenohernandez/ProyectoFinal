@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoinfo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:paddingHorizontal="30dp"
+        android:paddingVertical="20dp">
+
+        <TextView
+            android:id="@+id/tituloNuevaEstancia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="40dp"
+            android:text="@string/tituloEstancia"
+            android:fontFamily="@font/lilly"
+            android:textColor="#131313"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/cuadroNombreEstancia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/borde_redondo"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:layout_marginVertical="25dp"
+            android:hint="@string/hintNombreEstancia"/>
+
+
+        <EditText
+            android:id="@+id/cuadroPrecioEstancia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/borde_redondo"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:layout_marginVertical="25dp"
+            android:hint="@string/hintprecioEstancia"/>
+
+        <Spinner
+            android:id="@+id/spinnerTipoBusq"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="25dp"
+            android:entries="@array/spinnerTipo"/>
+
+        <EditText
+            android:id="@+id/cuadroMetrosEstancia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/borde_redondo"
+            android:layout_marginVertical="25dp"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="@string/hintMetrosEstancia"/>
+
+        <EditText
+            android:id="@+id/cuadroDormitoriosEstancia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/borde_redondo"
+            android:layout_marginVertical="25dp"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="@string/hintNumDormitorios"/>
+
+        <EditText
+            android:id="@+id/textAreaDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginVertical="25dp"
+            android:inputType="text|textMultiLine"
+            android:gravity="top"
+            android:hint="@string/hintDescripcion"/>
+
+        <EditText
+            android:id="@+id/textAreaCaracteristicas"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginVertical="25dp"
+            android:inputType="text|textMultiLine"
+            android:gravity="top"
+            android:hint="@string/hintCaracteristicas"/>
+
+        <Spinner
+            android:id="@+id/spinnerUbicacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="25dp"
+            android:entries="@array/spinnerUbicacion"/>
+
+        <EditText
+            android:id="@+id/cuadroImagen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/borde_redondo"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:layout_marginVertical="25dp"
+            android:hint="@string/hintImagen"/>
+
+        <Button
+            android:id="@+id/botonInsertarEstancia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="25dp"
+            android:text="@string/botonInsertarEstancia" />
+
+
+
+    </LinearLayout>
+</ScrollView>

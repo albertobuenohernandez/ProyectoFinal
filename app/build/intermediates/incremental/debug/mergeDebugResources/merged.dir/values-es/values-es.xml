@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d notificación nueva</item>
+    <item quantity="other">%d notificaciones nuevas</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Ir a inicio"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Desplazarse hacia arriba"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Más opciones"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Hecho"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Ver todo"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Seleccionar una aplicación"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"DESACTIVADO"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"ACTIVADO"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt +"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl +"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"Suprimir"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"Intro"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Función +"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta +"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Mayús +"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"Espacio"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym +"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menú +"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Buscar…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Borrar consulta"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Consulta de búsqueda"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Buscar"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Enviar consulta"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Búsqueda por voz"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Compartir con"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Compartir con <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Ocultar"</string>
+    <string name="about">About us</string>
+    <string name="action_settings">Settings</string>
+    <string name="ahoraNo">AHORA NO</string>
+    <string name="ajustes">Ajustes</string>
+    <string name="app_name">HomeLooker</string>
+    <string name="asuntoCorreo">Incidencia o duda con la app.</string>
+    <string name="asuntoCorreo2">Estoy interesado en comprar su estancia.</string>
+    <string name="borradoExito">Se ha borrado con exito</string>
+    <string name="botonAniadir">Añadir estancia</string>
+    <string name="botonBuscar">Buscar</string>
+    <string name="botonCambiar">Cambiar</string>
+    <string name="botonContactar">Contactar al vendedor</string>
+    <string name="botonEdit">Editar</string>
+    <string name="botonEditarEstancia">Editar Estancia</string>
+    <string name="botonEliminarEstancia">Eliminar Estancia</string>
+    <string name="botonFiltrar">Filtrar</string>
+    <string name="botonInsertarEstancia">Insertar Estancia</string>
+    <string name="botonMostrar">Mostrar Resultados</string>
+    <string name="botonOrdenar">Ordenar</string>
+    <string name="botoncontacto">Contactar</string>
+    <string name="bottomsheet_action_expand_halfway">Desplegar hasta la mitad</string>
+    <string name="cambiarContra">Cambiar contraseña</string>
+    <string name="character_counter_content_description">Caracteres introducidos: %1$d de %2$d</string>
+    <string name="character_counter_overflowed_content_description">Límite de caracteres superado (%1$d de %2$d)</string>
+    <string name="clear_text_end_icon_content_description">Borrar texto</string>
+    <string name="contacta">Contacta con nosotros</string>
+    <string name="contraModificada">Contraseña modificada con exito</string>
+    <string name="correo">abuenoh02@informatica.iesvalledeljerteplasencia.es</string>
+    <string name="cuerpoCorreo">Hola Alberto, me pongo en contacto contigo porque estoy utilizando tu app y me ha surgido la siguiente duda:</string>
+    <string name="cuerpoCorreo2">Hola Alberto, me pongo en contacto contigo porque estoy interesado en comprar una vivienda que he visto en la app Homelooker</string>
+    <string name="datosModificados">Datos modificados con exito</string>
+    <string name="dormitorios">Num. dormitorios</string>
+    <string name="editarCuenta">Editar cuenta</string>
+    <string name="eliminarCuenta">Eliminar cuenta</string>
+    <string name="eliminarEstancia">Eliminar estancia</string>
+    <string name="errorAccesoPagina">No puede acceder a la siguiente página, no tiene permisos</string>
+    <string name="errorContraNoCoincide">Error, las contraseñas no coinciden</string>
+    <string name="errorContraNoIgual">Error, la contraseña que has introducido no es la misma que antes</string>
+    <string name="errorCorreo">No se encontró ninguna aplicación de correo electrónico instalada.</string>
+    <string name="errorDatosExisten">Error, los datos introducidos ya existen</string>
+    <string name="errorModificacionDatos">Error, los datos no se han podido modificar</string>
+    <string name="errorPais">Error, debe seleccionar un país válido en el campo ubicación</string>
+    <string name="errorSpinnerBusqueda">Error, debe seleccionar un valor válido en el Spinner</string>
+    <string name="errorVuelve">Error, vuelva a introducir los datos correctamente</string>
+    <string name="error_icon_content_description">Error</string>
+    <string name="estanciaCreada">Estancia creada correctamente</string>
+    <string name="estanciaEliminada">La estancia se ha eliminado de favoritos</string>
+    <string name="estanciaGuardadaFav">Estancia guardada en favoritos correctamente</string>
+    <string name="exposed_dropdown_menu_content_description">Mostrar menú desplegable</string>
+    <string name="hintBusqueda">Ubicación</string>
+    <string name="hintCaracteristicas">Introduzca aquí las características de la estancia.</string>
+    <string name="hintContra">Contraseña</string>
+    <string name="hintCorreo">Correo electrónico</string>
+    <string name="hintDescripcion">Introduzca aquí la descripción de la estancia.</string>
+    <string name="hintImagen">URL de la imagen</string>
+    <string name="hintIniciar">Iniciar Sesión</string>
+    <string name="hintMetrosEstancia">Metros cuadrados</string>
+    <string name="hintNoTienes">¿No tienes cuenta?</string>
+    <string name="hintNombre">Nombre</string>
+    <string name="hintNombreCompleto">Nombre completo</string>
+    <string name="hintNombreEstancia">Nombre Estancia</string>
+    <string name="hintNumDormitorios">Número de dormitorios</string>
+    <string name="hintRegistrate">Registrate</string>
+    <string name="hintUsuario">Usuario</string>
+    <string name="hintprecioEstancia">Precio</string>
+    <string name="icon_content_description">Icono del cuadro de diálogo</string>
+    <string name="item_view_role_description">Pestaña</string>
+    <string name="material_clock_toggle_content_description">Selecciona AM o PM</string>
+    <string name="material_hour_selection">Seleccionar hora</string>
+    <string name="material_hour_suffix">%1$s en punto</string>
+    <string name="material_minute_selection">Seleccionar minutos</string>
+    <string name="material_minute_suffix">%1$s minutos</string>
+    <string name="material_timepicker_am">A.M.</string>
+    <string name="material_timepicker_clock_mode_description">Cambia al modo de reloj para escribir la hora.</string>
+    <string name="material_timepicker_hour">Hora</string>
+    <string name="material_timepicker_minute">Minuto</string>
+    <string name="material_timepicker_pm">P.M.</string>
+    <string name="material_timepicker_select_time">Seleccionar la hora</string>
+    <string name="material_timepicker_text_input_mode_description">Cambia al modo de introducción de texto para escribir la hora.</string>
+    <string name="menu_about">About</string>
+    <string name="menu_ajustes">Ajustes</string>
+    <string name="menu_busqueda">Búsqueda</string>
+    <string name="menu_favoritos">Favoritos</string>
+    <string name="metros">Metros cuadrados (m\\u00B2)</string>
+    <string name="mtrl_badge_numberless_content_description">Notificación nueva</string>
+    <string name="mtrl_chip_close_icon_content_description">Retirar %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Más de %1$d notificaciones nuevas</string>
+    <string name="mtrl_picker_a11y_next_month">Cambiar al mes siguiente</string>
+    <string name="mtrl_picker_a11y_prev_month">Cambiar al mes anterior</string>
+    <string name="mtrl_picker_announce_current_selection">Selección actual: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Selecciona una fecha</string>
+    <string name="mtrl_picker_date_header_unselected">Fecha seleccionada</string>
+    <string name="mtrl_picker_day_of_week_column_header">Columna de días: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Formato no válido.</string>
+    <string name="mtrl_picker_invalid_format_example">Ejemplo: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Usar: %1$s</string>
+    <string name="mtrl_picker_invalid_range">El periodo no es válido.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Ir al año %1$s</string>
+    <string name="mtrl_picker_out_of_range">Fuera del periodo válido: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Fecha de inicio–%1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s–Fecha de finalización</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Selecciona un periodo</string>
+    <string name="mtrl_picker_range_header_unselected">Fecha de inicio–Fecha de finalización</string>
+    <string name="mtrl_picker_save">Guardar</string>
+    <string name="mtrl_picker_text_input_date_hint">Fecha</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Fecha de finalización</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Fecha de inicio</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">a</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Cambiar al modo de introducción Calendario</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Toca para seleccionar un día</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Cambiar al modo de introducción Texto</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Toca para seleccionar un año</string>
+    <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"Desplazarse hacia arriba"</string>
+    <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"Abrir panel de navegación"</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="no">No</string>
+    <string name="noExisteEstancia">No existe o no se ha podido eliminar</string>
+    <string name="noExisteUser">No existe o no se ha podido eliminar el user</string>
+    <string name="nombre">HomeLooker</string>
+    <string name="nuevaContra">"Nueva contraseña: "</string>
+    <string name="nuevaDesc">Introduzca una nueva descripcion</string>
+    <string name="nuevasCarac">Introduzca las nuevas caracteristicas</string>
+    <string name="nuevoPrecio">Introduzca el nuevo precio</string>
+    <string name="oldContra">"Antigua contraseña: "</string>
+    <string name="ordenDormitorios">Dormitorios</string>
+    <string name="ordenMetros">Metros</string>
+    <string name="ordenNombre">Nombre</string>
+    <string name="ordenPrecio">Precio</string>
+    <string name="password_toggle_content_description">Mostrar contraseña</string>
+    <string name="precio">Precio (€)</string>
+    <string name="radio1">1</string>
+    <string name="radio2">2</string>
+    <string name="radio3">3</string>
+    <string name="radio4">4 o más</string>
+    <string name="rellenar">Rellene los campos según se indica</string>
+    <string name="repiteContra">"Repite nueva contraseña: "</string>
+    <string name="resultEncontrados">" resultados encontrados"</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Buscar"</string>
+    <string name="seguroEliminarCuenta">¿Seguro que quiere eliminar la cuenta?</string>
+    <string name="seguroEliminarEstancia">¿Seguro que quiere eliminar la estancia?</string>
+    <string name="si">Sí</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="textoAbout">Bienvenido/a a HomeLooker, una aplicación en la que podrás buscar tu nueva estancia dónde pasarás a vivir, nunca viene mal un cambio de domicilio, ya sea para cambiar de aires, nuevas aventuras...Te invito a explorar la aplicación y ver el gran catálogo de estancias que ofrecemos a nuestros clientes</string>
+    <string name="textoBienvenida">"Bienvenido/a "</string>
+    <string name="textoFav">Aquí apareceran los alojamientos marcados como favoritos</string>
+    <string name="textoNombre">"Introduzca su nuevo Nombre: "</string>
+    <string name="textoUsuario">"Introduzca su nuevo Usuario: "</string>
+    <string name="title_activity_inicio">Inicio</string>
+    <string name="tituloCancelar">Cancelar</string>
+    <string name="tituloContra">Cambiar contraseña</string>
+    <string name="tituloEditarEstancia">Editar Estancia</string>
+    <string name="tituloEstancia">Añadir nueva Estancia</string>
+    <string name="tituloResultados">Ventana Resultados</string>
+    <string name="usuarioCreado">Usuario creado correctamente</string>
+    <string name="ventanaAjustes">Ajustes</string>
+</resources>
